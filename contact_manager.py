@@ -49,7 +49,7 @@ def delete_contact():
 
 def main():
     while True:
-        print("\nWelcome to Contact Manager")
+        print("\nWelcome to Contact Manager Application")
         print("1. Add Contact")
         print("2. View Contacts")
         print("3. Search Contact")
