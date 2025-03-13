@@ -17,8 +17,8 @@ def view_contacts():
         print("No contacts available.")
         return
     print("List of Contacts:")
-    for idx, contact in enumerate(contacts, start=1):
-        print(f"{idx}. {contact[0]} - {contact[1]} - {contact[2]}")
+    for i, contact in enumerate(contacts, start=1):
+        print(f"{i}. {contact[0]} - {contact[1]} - {contact[2]}")
 
 def search_contact():
     name = input("Enter name to search: ")
